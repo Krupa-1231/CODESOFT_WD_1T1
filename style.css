@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    color: #333;
+    background: #fff;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    padding: 40px 0;
+  }
+  
+  /* Header */
+  header {
+    background: #4a90e2;
+    color: white;
+    text-align: center;
+    padding: 60px 0 30px;
+  }
+  
+  header h1 {
+    font-size: 3em;
+  }
+  
+  header p {
+    font-size: 1.2em;
+    margin-top: 10px;
+  }
+  
+  /* About Section */
+  .about {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .profile-pic {
+    width: 200px;
+    border-radius: 50%;
+  }
+  
+  /* Skills */
+  .skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    list-style: none;
+    justify-content: center;
+    padding-top: 20px;
+  }
+  
+  .skills-list li {
+    background: #f0f0f0;
+    padding: 10px 20px;
+    border-radius: 20px;
+  }
+  
+  /* Projects */
+  .projects-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+  }
+  
+  .project-card {
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    background: #fafafa;
+  }
+  
+  .project-card img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  /* Resume */
+  .btn {
+    display: inline-block;
+    padding: 10px 25px;
+    background: #4a90e2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+  }
+  
+  /* Contact */
+  #contact p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    margin-top: 40px;
+  }
+  
